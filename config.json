@@ -1,0 +1,16 @@
+{
+    "s3_sources": {
+        "source1": {
+            "s3_url": "https://s3.amazonaws.com/your-bucket-name/your-file1.csv",
+            "table_name": "target_table1",
+            "format": "CSV",
+            "schema": "timestamp DateTime, user_id UInt32, event_type String, value Float32"
+        },
+        "source2": {
+            "s3_url": "https://s3.amazonaws.com/your-bucket-name/your-file2.csv",
+            "table_name": "target_table2",
+            "format": "CSV",
+            "schema": "timestamp DateTime, user_id UInt32, event_type String, value Float32"
+        }
+    }
+}
